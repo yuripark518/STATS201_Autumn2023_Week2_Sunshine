@@ -6,4 +6,6 @@
 # !!
 ## Heading 2
 
+Welcome to our class
+
 ### Heading 3
