@@ -3,9 +3,7 @@
 ![Description of Image](CSCC_AFTERNOONTEAM_Nov34.png)
 # Hello World -Yiwei
 # Hi
-# !!
+# Yay - Yuri
 ## Heading 2
-
-Welcome to our class
 
 ### Heading 3
