@@ -1,0 +1,37 @@
+## Background/Motivation
+
+The paper “The Prediction of Disease Using Machine Learning” analyzes five machine learning algorithms — KNN, Naïve Bayes, Decision Tree, Random Forest, and SVM — in the context of disease prediction based on user-reported symptoms. The study is motivated by the belief that identifying the most accurate algorithm will benefit doctors by providing organized and reliable data, thereby enhancing patient understanding and increasing the likelihood of correct treatment. By employing four evaluation metrics: accuracy, precision, recall, and F1 score, the study compares these algorithms to gain insights that could improve the development of Disease Predictability Software with the most effective algorithm (Gomathy 1).
+
+
+## Research Question
+
+ Among KNN, Naïve Bayes, Decision Tree, Random Forest, and SVM, which machine learning algorithm will be the most effective to implement within the web-based disease prediction system?
+
+## Application Scenarios
+
+ This research has significant potential for application in health diagnosis. With accurate hospital data, the process of training an algorithm to reflect real-world conditions becomes more effective, which, in turn, leads to more accurate testing phases (Gomathy 1). By gaining a deeper understanding of the strengths and weaknesses of each machine learning algorithm, we can make informed choices about their deployment. Although the studies mentioned above indicate that the Random Forest algorithm is the most effective, alternative algorithms might be more suitable in different scenarios (Gomathy 5). For example, when dealing with a larger dataset, the time required to process the data becomes critical, as Random Forest algorithms require considerable computational power compared to others.
+
+## Methodology
+
+ The following diagram represents the method of comparison analysis. 
+
+
+First, with the initial dataset from the certified hospital, the data will be randomly in two sets: training and testing. Such a way allows the testing set to have a data set to test without having the data seen in the training set, which is to validate the performances of the different models. Next, with the four machines leading algorithms, the data will be training the different algorithms based on the specific rules and functions each of the algorithms follows (Gomathy 3). 
+
+Thus, based on the calculations below,
+
+
+
+such a method will be used on the testing as during the testing phase, predictions made by the machine learning model using the test data set are compared against the outcomes. In all, the results of this comparison—how many true positives, false positives, true negatives, and false negatives there are—feed into the calculations above to quantify the performance (Gomathy 2).
+
+## Results
+
+ Although accuracy, precision, recall, and F1 score were in the methodology section of the paper as a measurement to know the efficiency of the models, the result section only shared the accuracy percentages. In all, with 98.95% accuracy, the Random Forest algorithm showed the highest accuracy, and SVM was the second highest with 96.49% accuracy (Gomathy 5).
+
+Gomathy, C. K., and Mr A. Rohith Naidu. "The prediction of disease using machine learning." International Journal of Scientific Research in Engineering and Management (IJSREM) 5.10 (2021).
+
+Intellectual merits/practical impacts
+
+ This research has inspired and encouraged other researchers to conduct similar studies using different datasets and models for the disease to enhance predictions or to discover other models that can contribute more effectively to prediction accuracy. For instance, in the paper "Cardiovascular Diseases Prediction by Machine Learning Incorporation with Deep Learning," it is noted that "several investigations concluded that Random Forests (RF) and Support Vector Machines (SVM) performed better than traditional models" (Subramani 2). Consequently, various pre-existing machine learning algorithms were tested not only to determine the most accurate at predicting CVD, but also to identify the most significant predictive factors. However, what makes this paper go beyond pure comparison is that specific attributes about the predictors were able to be made. For instance, according to the findings based on the RF algorithm, the age of the patient was identified as the most significant predictor in the classification of CVD (Subramani 6). Thus deeper analysis can be done.
+
+Subramani, Sivakannan, et al. "Cardiovascular diseases prediction by machine learning incorporation with deep learning." Frontiers in Medicine 10 (2023): 1150933.
